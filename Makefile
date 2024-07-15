@@ -10,6 +10,10 @@ proto:
 lint:
 	golangci-lint run ./...
 
+.PHONY: test
+test:
+	go test -race -v ./...
+
 .PHONY: dev
 dev:
 	go run ./...
