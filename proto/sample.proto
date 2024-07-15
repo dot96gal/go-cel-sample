@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package sample;
+
+option go_package = "github.com/dot96gal/go-cel-sample/proto";
+
+message Payload{
+  int32 num = 1;
+}
