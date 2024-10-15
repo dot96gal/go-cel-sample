@@ -4,7 +4,7 @@ go 1.22.5
 
 require (
 	github.com/google/cel-go v0.21.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.35.1
 )
 
 require (
