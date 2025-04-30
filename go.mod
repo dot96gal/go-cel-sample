@@ -1,13 +1,14 @@
 module github.com/dot96gal/go-cel-sample
 
 go 1.22.5
+
 require (
-	github.com/google/cel-go v0.24.1
+	github.com/google/cel-go v0.25.0
 	google.golang.org/protobuf v1.36.6
 )
 
 require (
-	cel.dev/expr v0.19.1 // indirect
+	cel.dev/expr v0.23.1 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	golang.org/x/exp v0.0.0-20230515195305-f3d0a9c9a5cc // indirect
