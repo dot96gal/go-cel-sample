@@ -1,10 +1,10 @@
 module github.com/dot96gal/go-cel-sample
 
-go 1.22.5
+go 1.23
 
 require (
 	github.com/google/cel-go v0.26.0
-	google.golang.org/protobuf v1.36.7
+	google.golang.org/protobuf v1.36.8
 )
 
 require (
