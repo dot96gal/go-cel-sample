@@ -3,7 +3,7 @@ module github.com/dot96gal/go-cel-sample
 go 1.23.0
 
 require (
-	github.com/google/cel-go v0.27.0
+	github.com/google/cel-go v0.28.0
 	google.golang.org/protobuf v1.36.11
 )
 
